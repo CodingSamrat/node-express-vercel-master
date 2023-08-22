@@ -1,4 +1,5 @@
 // Import packages
+require("dotenv").config();
 const express = require("express");
 const home = require("./routes/home");
 
